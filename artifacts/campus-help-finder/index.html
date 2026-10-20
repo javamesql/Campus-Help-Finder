@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f4ec" />
+    <meta name="description" content="Find free support and resources available to you on campus." />
+    <title>Campus Help Finder</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="wordmark" href="/" aria-label="Campus Help Finder home">
+        <span class="mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Campus <strong>Help Finder</strong></span>
+      </a>
+      <span class="topbar-note">A good place to start</span>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> SUPPORT, WITHOUT THE RUNAROUND</p>
+          <h1 id="page-title">You don’t have to<br class="desktop-break" /> figure it out <em>alone.</em></h1>
+          <p class="intro-text">Find free, practical support available to you on campus. Start wherever you are.</p>
+        </div>
+        <div class="intro-stamp" aria-hidden="true">
+          <span class="stamp-ring">HERE FOR YOU · HERE FOR YOU ·</span>
+          <span class="stamp-center"><span>6</span><small>ways to<br />get support</small></span>
+        </div>
+      </section>
+
+      <section class="directory" aria-labelledby="directory-title">
+        <div class="directory-heading">
+          <div>
+            <p class="section-kicker">YOUR CAMPUS, IN YOUR CORNER</p>
+            <h2 id="directory-title">Find the right support</h2>
+          </div>
+          <p class="free-note"><span class="free-dot"></span> All resources are free</p>
+        </div>
+
+        <label class="search-wrap" for="resource-search">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="10.8" cy="10.8" r="6.8"></circle>
+            <path d="m16 16 4.3 4.3"></path>
+          </svg>
+          <input id="resource-search" type="search" placeholder="What kind of support are you looking for?" autocomplete="off" />
+          <span class="search-hint">SEARCH</span>
+        </label>
+        <p class="result-count" id="result-count" aria-live="polite">Showing all 6 resources</p>
+
+        <div class="resource-grid" id="resource-grid">
+          <article class="resource-card" data-search="food pantry groceries meals nutrition">
+            <div class="card-top"><span class="resource-number">01</span><span class="resource-icon icon-coral" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M8 13h16l-1 14H9L8 13Z"/><path d="M12 13c0-2.2 1.8-4 4-4s4 1.8 4 4M16 16v7m-3.5-3.5h7"/></svg>
+            </span></div>
+            <h3>Food Pantry</h3>
+            <p>Pick up fresh groceries and pantry staples, with no questions asked.</p>
+            <a class="learn-link" href="#">Learn more <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="resource-card" data-search="counseling wellbeing mental health therapy emotional support">
+            <div class="card-top"><span class="resource-number">02</span><span class="resource-icon icon-lilac" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M16 26s-10-5.7-10-13a5.5 5.5 0 0 1 10-3.2A5.5 5.5 0 0 1 26 13c0 7.3-10 13-10 13Z"/><path d="M11 16h3l2-3 2 6 1.5-3H22"/></svg>
+            </span></div>
+            <h3>Counseling &amp; Wellbeing</h3>
+            <p>Talk with a counselor and find caring support for your mental health.</p>
+            <a class="learn-link" href="#">Learn more <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="resource-card" data-search="peer tutoring study academic classes learning">
+            <div class="card-top"><span class="resource-number">03</span><span class="resource-icon icon-gold" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><path d="m5 11 11-5 11 5-11 5-11-5Z"/><path d="M9 13v7c4.7 4 9.3 4 14 0v-7M27 11v8"/><path d="M12 18h8"/></svg>
+            </span></div>
+            <h3>Peer Tutoring</h3>
+            <p>Get one-on-one study help from students who know your courses.</p>
+            <a class="learn-link" href="#">Learn more <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="resource-card" data-search="student legal aid lawyer rights advice">
+            <div class="card-top"><span class="resource-number">04</span><span class="resource-icon icon-blue" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><path d="M16 6v20M9 10h14M7 11l-4 8h8l-4-8Zm18 0-4 8h8l-4-8ZM11 26h10"/></svg>
+            </span></div>
+            <h3>Student Legal Aid</h3>
+            <p>Understand your options with confidential legal advice for students.</p>
+            <a class="learn-link" href="#">Learn more <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="resource-card" data-search="childcare support children family parenting">
+            <div class="card-top"><span class="resource-number">05</span><span class="resource-icon icon-green" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="11" r="5"/><path d="M6 27c.6-5.5 4.2-8.5 10-8.5s9.4 3 10 8.5H6Z"/><path d="M14 11h.1m3.8 0h.1"/></svg>
+            </span></div>
+            <h3>Childcare Support</h3>
+            <p>Explore childcare options and resources for student parents and families.</p>
+            <a class="learn-link" href="#">Learn more <span aria-hidden="true">↗</span></a>
+          </article>
+
+          <article class="resource-card" data-search="emergency housing shelter temporary place to stay">
+            <div class="card-top"><span class="resource-number">06</span><span class="resource-icon icon-peach" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none"><path d="m4 15 12-9 12 9v12H4V15Z"/><path d="M12 27V17h8v10M8 13l8-6 8 6"/></svg>
+            </span></div>
+            <h3>Emergency Housing</h3>
+            <p>Find a safe place to stay and immediate help with housing needs.</p>
+            <a class="learn-link" href="#">Learn more <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span class="empty-mark" aria-hidden="true">?</span>
+          <h3>No matches just yet</h3>
+          <p>Try another word, or clear your search to see every resource.</p>
+          <button type="button" id="clear-search">Clear search</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span class="footer-mark" aria-hidden="true"></span>
+      <p>Asking for support is a strong place to start.</p>
+      <span class="footer-caption">CAMPUS HELP FINDER</span>
+    </footer>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
